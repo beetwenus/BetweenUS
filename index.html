@@ -4,8 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#090a12">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <meta name="description" content="BETWEEN US — thoughtful relationship guidance to help you understand each other, communicate better, and grow together.">
+  <link rel="icon" type="image/png" sizes="128x128" href="./favicon.png?v=3">
+  <link rel="shortcut icon" href="./favicon.ico?v=3" type="image/x-icon">
+  <link rel="apple-touch-icon" href="./favicon.png?v=3">
+<meta name="description" content="BETWEEN US — thoughtful relationship guidance to help you understand each other, communicate better, and grow together.">
   <title>BETWEEN US — Understand Each Other Better</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
@@ -22,14 +24,12 @@
       <nav class="main-nav" id="mainNav" aria-label="Main navigation">
         <a href="#home" class="nav-link active">Home</a>
         <a href="#journey" class="nav-link">Journey</a>
-        <a href="#the-bridge" class="nav-link">The Bridge</a>
         <a href="#library" class="nav-link">Advice</a>
         <a href="#situation" class="nav-link">Find guidance</a>
         <a href="#sides" class="nav-link">Both sides</a>
         <a href="#tools" class="nav-link">Tools</a>
         <a href="#dashboard" class="nav-link">Dashboard</a>
         <a href="#all-tools" class="nav-link">Toolbox</a>
-        <a href="#follow-through" class="nav-link">Follow-Through</a>
         <a href="#about" class="nav-link">About</a>
         <a href="#situation" class="nav-cta">Get support <span aria-hidden="true">↗</span></a>
       </nav>
@@ -178,33 +178,6 @@
       </div>
     </section>
 
-    <section class="section bridge-feature-section" id="the-bridge">
-      <div class="container">
-        <div class="bridge-feature-card">
-          <div class="bridge-feature-copy">
-            <div class="eyebrow"><span class="eyebrow-dot"></span> BETWEEN US · SIGNATURE EXPERIENCE</div>
-            <p class="bridge-overline">A guided conversation for two</p>
-            <h2>THE <span>BRIDGE</span></h2>
-            <p class="bridge-feature-lede">Two perspectives. One conversation. A chance to understand each other.</p>
-            <p class="bridge-feature-description">Work through a misunderstanding or difficult conversation one step at a time. Share your perspective, listen carefully, find common ground, and choose practical next steps together.</p>
-            <div class="bridge-feature-actions">
-              <button class="button button-primary" type="button" data-open-tool="bridge">Start The Bridge <span aria-hidden="true">↗</span></button>
-              <span class="bridge-feature-note">No account · Same-device experience · Save when you choose</span>
-            </div>
-          </div>
-          <div class="bridge-visual" aria-hidden="true">
-            <div class="bridge-orbit bridge-orbit-one"></div><div class="bridge-orbit bridge-orbit-two"></div>
-            <div class="bridge-side bridge-side-a"><span>A</span><small>PERSON A</small></div>
-            <div class="bridge-side bridge-side-b"><span>B</span><small>PERSON B</small></div>
-            <div class="bridge-arch"><i></i><b></b></div>
-            <div class="bridge-visual-caption">LISTEN · UNDERSTAND · MOVE FORWARD</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section follow-feature-section" id="follow-through"><div class="container"><div class="follow-feature-card"><div class="follow-feature-copy"><div class="eyebrow"><span class="eyebrow-dot"></span> BETWEEN US · SIGNATURE EXPERIENCE</div><p class="follow-overline">From conversation to consistent action</p><h2>THE <span>FOLLOW-THROUGH</span></h2><p class="follow-feature-lede">Progress isn't about promising to become perfect. It's about making small, meaningful changes and continuing to learn together.</p><p class="follow-feature-description">Create personal commitments, agree on shared goals, plan a review, and reflect on the steps you take. Keep private notes private, and share only what you choose.</p><div class="follow-feature-actions"><button class="button button-primary" type="button" data-open-tool="followthrough">Open Follow-Through <span aria-hidden="true">↗</span></button><span class="follow-feature-note">No account · Same-device mode · Local storage</span></div></div><div class="follow-visual" aria-hidden="true"><div class="follow-ring"><span>01</span><i></i></div><div class="follow-node follow-node-one">COMMIT</div><div class="follow-node follow-node-two">PRACTISE</div><div class="follow-node follow-node-three">REVIEW</div><div class="follow-visual-caption">SMALL STEPS · REAL PROGRESS</div></div></div></div></section>
-
     <section class="section v2-toolbox-section" id="all-tools">
       <div class="container">
         <div class="section-heading split-heading"><div><div class="eyebrow">THE INTERACTIVE TOOLBOX</div><h2>More than advice.<br><span>Tools you can actually use.</span></h2></div><p>Choose a practical activity for the moment you're in. Every tool works locally in your browser.</p></div>
@@ -238,7 +211,5 @@
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <dialog class="v2-tool-dialog" id="v2ToolDialog" aria-labelledby="v2ToolTitle"><button class="dialog-close" id="v2CloseTool" aria-label="Close tool">×</button><div id="v2ToolDialogContent" class="v2-tool-dialog-content"></div></dialog>
   <script src="v2.js" defer></script>
-  <script src="bridge.js" defer></script>
-  <script src="followthrough.js" defer></script>
 </body>
 </html>

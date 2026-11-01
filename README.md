@@ -50,7 +50,6 @@ BETWEEN-US/
 ├── style.css
 ├── script.js
 ├── v2.js
-├── bridge.js          # v2.1 flagship guided conversation
 ├── README.md
 └── assets/
     ├── images/
@@ -149,22 +148,3 @@ Also test portrait and landscape orientations, keyboard navigation, visible focu
 ---
 
 **BETWEEN US — Because understanding each other is part of loving each other.**
-
-
-## Version 2.1 — THE BRIDGE
-
-THE BRIDGE is the flagship guided two-person conversation experience, launched from the homepage feature panel. It supports Person A and Person B turn-by-turn answers, explicit two-person consent before revealing either perspective, reflection/acknowledgement, an understanding check, common-ground notes, a voluntary action plan, and an editable summary. Conversations can be saved, resumed, copied, deleted, restarted, paused, or exited without saving.
-
-### Privacy and storage
-
-The initial release runs without an account or backend. Saved Bridge conversations use browser `localStorage` on the current device only. They are not encrypted, password-protected, or synchronized to other devices. The Bridge does not read or share the separate private reflection journal. Both participants should use the same device and only reveal answers when comfortable.
-
-### Updating an existing GitHub Pages repository
-
-Upload/replace `index.html` and `style.css`, and add the new `bridge.js` file in the repository root. Keep the existing `script.js`, `v2.js`, favicon files, and `assets` folder unchanged. Commit the changes to the publishing branch.
-
-## Version 2.2 — THE FOLLOW-THROUGH
-
-Adds a same-device, local-only progress workspace with personal commitments (private to the selected participant or explicitly shared), shared relationship goals, target dates, status and notes, follow-up review dates, progress check-ins with private/shared visibility, and a growth timeline. Goal agreements can be kept in progress, paused, replaced, or completed. Data can be exported or deleted from the feature.
-
-Review dates are displayed in the website; this static version does not guarantee operating-system notifications and cannot sync across devices. Local browser storage is not encrypted or password-protected. Upload the updated `index.html`, `style.css`, and new `followthrough.js` to your existing repository. Keep the existing `script.js`, `v2.js`, `bridge.js`, and other assets.
